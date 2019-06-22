@@ -20,6 +20,26 @@ body{
 #area-logo, #area-menu{
     padding: 10px;
 }
+#area-principal{
+    width: 920px;
+    margin:0 auto;
+}
+#area-postagem{
+    background: #fff;
+    width: 660px;
+    float: left;
+}
+#area-lateral{
+    background: #fff;
+    width: 240px;
+    float: right;
+}
+#area-rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #ccc;
+}
 /*
 **** Formatação do Menu ****
 */
