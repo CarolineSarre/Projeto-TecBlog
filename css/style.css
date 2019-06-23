@@ -23,22 +23,53 @@ body{
 #area-principal{
     width: 920px;
     margin:0 auto;
+    padding: 15px;
 }
 #area-postagem{
     background: #fff;
     width: 660px;
     float: left;
 }
+
 #area-lateral{
     background: #fff;
     width: 240px;
     float: right;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.postagem img{
+    width: 620px;
+}
+.conteudo-lateral{
+    background: white;
+    padding: 10px;
+}
+.postagem-lateral{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 2px dotted #ccc;
 }
 #area-rodape{
     clear: both;
     text-align: center;
     padding: 15px;
     background: #ccc;
+}
+.area-jogo{
+    height: 400px;
+    width: 400px;
+    background: #fff;
+    float: left;
+    margin: 18px;
+    padding: 10px;
+}
+.area-jogo img{
+    height: 330px;
+    width: 350px;
+    margin: 10px 20px
 }
 /*
 **** Formatação do Menu ****
@@ -47,14 +78,20 @@ a{
     text-decoration: none;
 }
 a:link, a:visited{
+    color: #f7b600;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited{
     color: #fff;
     padding: 8px 12px;
 }
-a:hover{
+#area-cabecalho a:hover{
     color:#f7b600;
     background:#fff;
 }
-
 
 /*
 **** Formatação Geral ****
@@ -65,5 +102,20 @@ h1{
     font-size: 2.5em;
 }
 .branco{
-    color: white
+    color: white;
+}
+h2{
+    color: #f7b600;
+}
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+}
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
 }
