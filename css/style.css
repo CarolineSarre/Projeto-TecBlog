@@ -77,6 +77,18 @@ body{
     padding: 50px;
     margin: 30px;
 }
+.post-info{
+    width:280px;
+    height: 600px;
+    background: #fff;
+    float:right;
+    margin: 13px;
+}
+.post-info img {
+    width: 250px;
+    padding: 20px;
+}
+
 /*
 **** Formatação do Menu ****
 */
@@ -126,4 +138,9 @@ h3{
     margin-bottom: 10px;
     padding-bottom: 10px;
     display: block;
+}
+p{
+    font-size: 0.8em;
+    text-align: justify;
+    padding: 5px;
 }
