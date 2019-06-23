@@ -71,6 +71,12 @@ body{
     width: 350px;
     margin: 10px 20px
 }
+.area-celular{
+    background: #fff;
+    border-bottom:2px dotted #ccc;
+    padding: 50px;
+    margin: 30px;
+}
 /*
 **** Formatação do Menu ****
 */
@@ -98,6 +104,7 @@ a:hover{
 */
 
 h1{
+    text-align: center;
     color: #4e4e4e;
     font-size: 2.5em;
 }
@@ -106,6 +113,7 @@ h1{
 }
 h2{
     color: #f7b600;
+    text-align: justify;
 }
 h3{
     color: #565656;
