@@ -199,6 +199,15 @@ fieldset.grupo .campo {
 .botao button, select, label.checkbox {
     cursor: pointer;
 }
+
+.validado {
+    border: 1px solid green!important;
+  }
+  
+  .invalido {
+    border: 1px solid red!important;
+  }
+
 /*
 **** Formatação Geral ****
 */
@@ -232,3 +241,5 @@ p{
     text-align: justify;
     padding: 5px;
 }
+
+

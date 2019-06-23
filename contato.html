@@ -24,50 +24,48 @@
         </div>
     </div>
     <div id="area-principal">
-        <form action="#" method="post">
+        <form name="formcontato" action="#" method="post">
 
             <fieldset>
                 <fieldset class="grupo">
                     <div class="campo">
                         <label for="nome">Nome</label>
-                        <input type="text" id="nome" name="nome" style="width: 10em" value="">
+                        <input type="text" id="nome" name="nome"  value="" required>
                     </div>
                     <div class="campo">
                         <label for="snome">Sobrenome</label>
-                        <input type="text" id="snome" name="snome" style="width: 10em" value="">
+                        <input type="text" id="snome" name="snome"  value="" required>
                     </div>
                 </fieldset>
                 <div class="campo">
                     <label>Sexo</label>
                     <label>
                         <input type="radio" name="sexo" value="masculino"> Masculino
-                    </label>
-                    <label>
                         <input type="radio" name="sexo" value="feminino"> Feminino
                     </label>
                 </div>
                 <div class="campo">
                     <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email" style="width: 20em" value="">
+                    <input type="email" id="email" name="email" value="" required>
                 </div>
                 <div class="campo">
                     <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" name="telefone" style="width: 10em" value="">
+                    <input type="text" id="telefone" name="telefone"  value="" required>
                 </div>
                 <div class="campo">
                     <label for="Data de Nascimento">Data de nascimento</label>
-                    <input id="date" type="date">
+                    <input id="date" type="date" required>
 
                 </div>
 
                 <fieldset class="grupo">
                     <div class="campo">
                         <label for="cidade">Cidade</label>
-                        <input type="text" id="cidade" name="cidade" style="width: 10em" value="">
+                        <input type="text" id="cidade" name="cidade" value="" required>
                     </div>
                     <div class="campo">
                         <label for="estado">Estado</label>
-                        <select name="estado" id="estado">
+                        <select name="estado" id="estado" required>
                             <option value="">--</option>
                             <option value="AC">AC</option>
                             <option value="BA">BA</option>
@@ -85,7 +83,7 @@
 
                 <div class="campo">
                     <label for="mensagem">Mensagem</label>
-                    <textarea rows="6" style="width: 20em" id="mensagem" name="mensagem"></textarea>
+                    <textarea required></textarea>
                 </div>
 
                 <div class="campo">
@@ -101,6 +99,7 @@
             </fieldset>
         </form>
     </div>
+    <script type="text/javascript" src="Js/script.js"></script>
 </body>
 
 </html>
